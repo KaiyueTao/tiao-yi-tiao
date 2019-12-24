@@ -43,7 +43,7 @@
 因为模块间传递信号较多，为了避免杂乱，只标注了control（控制）模块的控制信号以及总体的input、output信号。模块间具体信号传递直接见源码。
 
 **注：**
-rom1、rom2以及clk_wiz利用vivado ip核直接生成即可。rom1&2为480000*3，分别载入pic中的start/dead.coe文件；clk生成40MHz。
+rom1、rom2以及clk_wiz利用vivado ip核直接生成即可。rom1&2为480000x3，分别载入pic中的start/dead.coe文件（使用bmptomif生成后，再python简单处理成coe文件）；clk生成40MHz。
 
 ## 演示
 
